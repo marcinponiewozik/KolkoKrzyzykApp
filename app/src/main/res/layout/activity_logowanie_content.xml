@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text="Zaloguj się"
+            android:id="@+id/button"
+            android:onClick="zalogujSie"
+            android:background="@drawable/color_accent"
+            android:textColor="@color/primary_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rejestracja"
+            android:id="@+id/button2"
+            android:onClick="rejestracja"
+            android:background="@drawable/color_secondary"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etHaslo"
+        android:layout_centerHorizontal="true"
+        android:hint="haslo"
+        android:layout_above="@+id/linearLayout"
+        android:drawableLeft="@drawable/password" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLogin"
+        android:layout_above="@+id/etHaslo"
+        android:layout_centerHorizontal="true"
+        android:hint="login"
+        android:drawableLeft="@drawable/username" />
+
+</RelativeLayout>

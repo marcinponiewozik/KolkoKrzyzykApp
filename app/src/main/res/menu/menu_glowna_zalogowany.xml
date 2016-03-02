@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Glowna">
+    <item
+        android:id="@+id/odswiez"
+        android:icon="@drawable/restart_menu"
+        android:title="btnSzukaj"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/szukaj"
+        android:icon="@drawable/search_menu"
+        android:title="btnSzukaj"
+        app:showAsAction="always" />
+
+</menu>

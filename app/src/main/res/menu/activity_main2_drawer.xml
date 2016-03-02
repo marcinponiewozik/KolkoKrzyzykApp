@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Glowna"
+            android:icon="@drawable/controller"
+            android:title="Lista dostepnych gier" />
+        <item
+            android:id="@+id/nav_Lista"
+            android:icon="@drawable/save"
+            android:title="Moje gry" />
+        <item
+            android:id="@+id/nav_Ranking"
+            android:icon="@drawable/rating"
+            android:title="Ranking" />
+    </group>
+
+    <item android:title="Inne">
+        <menu>
+            <item
+                android:id="@+id/nav_Konto"
+                android:icon="@drawable/contact"
+                android:title="Konto" />
+            <item
+                android:id="@+id/nav_Ustawienia"
+                android:icon="@drawable/settings"
+                android:title="Ustawienia" />
+            <item
+                android:id="@+id/nav_Wyjdz"
+                android:icon="@drawable/exit"
+                android:title="Wyjdz" />
+        </menu>
+    </item>
+
+</menu>

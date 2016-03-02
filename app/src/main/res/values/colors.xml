@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="primary_light">#F5F5F5</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorAccentPressed">#A6B32E</color>
+    <color name="colorAccentDisable">#c7c7c7</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="secondary_textPressed">#d2d2d2</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="dividerPressed">#898989</color>
+    <color name="tlo_konto">#B6B6B6</color>
+</resources>
+
