@@ -1,7 +1,7 @@
 ---
 
 
-[![solarized dualmode](http://zapodaj.net/images/6283f6e537bcf.png = 200x300)](#features)
+[![solarized dualmode](https://raw.githubusercontent.com/marcinponiewozik/KolkoKrzyzykApp/master/screenshot/1.png = 200x300)](#features)
 
 Solarized is a sixteen color palette (eight monotones, eight accent colors)
 designed for use with terminal and gui applications. It has several [unique
